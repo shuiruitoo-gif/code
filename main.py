@@ -39,5 +39,5 @@ class Vehicle:
 
 v1 = Vehicle(model = "Zx6r", engine = GasEngine())
 v2 = Vehicle(model = "GXSR", engine = ElectricEngine())
-v1.engine.start()
-v2.engine.start()
+v3 = v1 == v2
+print(v3)
